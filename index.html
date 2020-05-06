@@ -25,9 +25,48 @@
 
         <div class="wrapper">
             <div class="OutputContainer">
-                <h2>Below is the Community!</h2>
-                <div class="viz" style="width: 700px; height: 600px;">
-                    <p>[Visualization goes here]</p>
+                <h2>Welcome to our Project!</h2>
+                <div class="paragraph">
+                    <p>Using Neo4j as our noSQL database, we are able to see the connection within a community like the one below: </p>
+                </div>
+            
+                <div class="viz">
+                    <img src="Images/Full_network.png" alt="Full Network" width="400" height="350">
+                </div>
+                
+                <div class="paragraph">
+                    <p>The pink nodes (circles) are food suppliers. The green nodes are restuarants. Neo4j gives us the
+                        ability to create relationships between these nodes. For examaple, the restaurants <i>Parkway Deli</i>,
+                        <i>Samford Grill</i>, and <i>Trattorea da Lina</i> buy from the food supplier <i>Capital Food Goods</i>. We can see the 
+                        relationship represented by the "BUYS_FROM" label:
+                    </p>
+                </div>
+
+                <div class="viz">
+                    <img src="Images/Supplier_to_Restaurant.png" alt="Supplier to Restaurant Relationship" width="500" height="350">
+                </div>
+
+                <div class="paragraph">
+                    <p>A real world example where we can use this relationship technology is tracing the start of an epidemic. Below 
+                        we have added <i>Tony</i> (orange node for workers), a waiter at the restaurant <i>Coastal Flats</i> (notice the WORKS label). If Tony were to get sick
+                        from a food related virus, we could trace the virus back to the source which in this case might be the food supplier
+                        <i>Angeli Gourmet:</i>
+                    </p>
+                </div>
+
+                <div class="viz">
+                    <img src="Images/Restaurant_to_worker.png" alt="Restaurant to Worker Relationship" width="300" height="350">
+                </div>
+
+                <div class="paragraph">
+                    <p>Using data visualization, we can even look forward to see where potential contamination can occur. We have
+                        added <i>Emily</i>, Tony's daughter who attends <i>Beall ES</i>. This visualization tool allows us to see the connections 
+                        in a community and there are many uses for it:
+                    </p>
+                </div>
+
+                <div class="viz">
+                    <img src="Images/Full_chain.png" alt="Restaurant to Worker Relationship" width="500" height="350">
                 </div>
             </div>
             

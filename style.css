@@ -62,6 +62,7 @@
   p {
     font-size: 16px;
     margin-bottom: auto;
+    text-align: center;
   }
   
   a {
@@ -104,9 +105,11 @@
 
   .viz {
       display: flex;
+      /*flex-direction: column;*/
       justify-content: center;
-    align-items: center;
-      background-color: rgb(160, 160, 160);
+      align-items: center;
+      background-color: #e6e6e6;
+      width: auto;
   }
   
   .filter {
@@ -131,4 +134,9 @@
     margin-top: 1em;
     max-width: 157px;
     margin-right: 1em;
+  }
+
+  .paragraph{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
   }
